@@ -32,6 +32,8 @@ This is the simplest case. Get the script in whatever way you prefer and include
 </script>
 ```
 
+Once published to NPM, you could use a CDN URL such as https://cdn.jsdelivr.net/npm/<%= pluginName %>@<%= version %>/dist/<%= pluginName %>.min.js
+
 ### Browserify/CommonJS
 
 When using with Browserify, install <%= pluginName %> via npm and `require` the plugin as you would any other module.
